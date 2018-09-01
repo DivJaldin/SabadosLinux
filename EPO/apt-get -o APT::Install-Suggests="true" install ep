@@ -1,0 +1,3 @@
+apt-get -o APT::Install-Suggests="true" install epoptes-client
+cp /home/alumno/Entregas/epoptes-client /etc/default/epoptes-client
+epoptes-client -c
